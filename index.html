@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexión API Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content-box">
+            <h1>CONEXIÓN API CLIMA 🌦️</h1>
+            <div id="resultado">
+            <p class="small-text">¡Aviso importante! Agrega la ciudad.</p>
+            </div>
+            <form id="formulario" method="POST" action="#" >
+                <div class="form-group">
+                    <label for="city">Ciudad🌆:</label>
+                    <input type="text" id="city" name="city"placeholder="Ciudad" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">País🌎:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Selecciona un país</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="ES">España</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CA">Canadá</option>
+                        <option value="CN">China</option>
+                        <option value="FR">Francia</option>
+                        <option value="GB">Reino Unido</option>
+                        <option value="IT">Italia</option>
+                        <option value="JP">Japón</option>
+                        <option value="KR">Corea del Sur</option>
+                        <option value="RU">Rusia</option>
+                        <option value="SA">Arabia Saudita</option>
+                        <option value="AU">Australia</option>
+                        <option value="EG">Egipto</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Irán</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="ZA">Sudáfrica</option>
+                        <option value="TR">Turquía</option>
+                        <option value="VN">Vietnam</option>
+                        <option value="DE">Alemania</option>
+                        <option value="PL">Polonia</option>
+                        <option value="TH">Tailandia</option>
+                        <option value="NL">Países Bajos</option>
+                        <option value="BE">Bélgica</option>
+                        <option value="SE">Suecia</option>
+                        <option value="CH">Suiza</option>
+                        <option value="AT">Austria</option>
+                        <option value="NO">Noruega</option>
+                        <option value="FI">Finlandia</option>
+                        <option value="DK">Dinamarca</option>   
+                    </select>
+                </div>
+                <button type="submit">Consultar Clima</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
